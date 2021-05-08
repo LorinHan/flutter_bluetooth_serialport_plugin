@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Android.mk",
+    "D:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidStudioComponent\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidProject/serial_port_flutter_plugin/example/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\build\\app\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\AndroidStudioComponent\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidProject/serial_port_flutter_plugin/example/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\build\\app\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "serial_port-debug-armeabi-v7a": {
+      "artifactName": "serial_port",
+      "buildCommand": "D:\\AndroidStudioComponent\\ndk\\21.1.6352462\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\android\\app\\src\\main\\java\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidProject/serial_port_flutter_plugin/example/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidProject\\serial_port_flutter_plugin\\example\\build\\app\\intermediates\\ndkBuild\\debug\\lib D:/AndroidProject/serial_port_flutter_plugin/example/build/app/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libserial_port.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroidProject\\serial_port_flutter_plugin\\example\\build\\app\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libserial_port.so",
+      "runtimeFiles": []
+    }
+  }
+}

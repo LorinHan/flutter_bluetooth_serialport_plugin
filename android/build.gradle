@@ -1,0 +1,42 @@
+group 'com.example.serial_port_flutter_plugin'
+version '1.0'
+
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+}
+dependencies {
+    implementation files('libs/CPCL_SDK_V1.11.jar')
+    compile 'com.clj.fastble:FastBleLib:2.3.4'
+}
