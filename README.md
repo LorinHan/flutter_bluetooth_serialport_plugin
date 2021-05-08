@@ -1,6 +1,6 @@
 # serial_port_flutter_plugin
 
-A new flutter plugin project.
+Flutter 蓝牙、串口 android插件
 
 ## Getting Started
 
